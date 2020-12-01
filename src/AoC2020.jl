@@ -1,5 +1,11 @@
 module AoC2020
 
-# Write your package code here.
+include("day01.jl")
+
+# run all
+function runalldays()
+    display(Day1.day1())
+end
+
 
 end
