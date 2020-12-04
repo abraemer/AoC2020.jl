@@ -2,7 +2,7 @@ module DayNNN
 export dayNNN
 
 function readInput(inputfile="inputs/input0NNN.txt")
-    lines = collect(eachline(inputfile))
+    lines = readlines(inputfile)
     lines
 end
 
