@@ -4,6 +4,7 @@ include("day01.jl")
 include("day02.jl")
 include("day03.jl")
 include("day04.jl")
+include("day05.jl")
 
 # run all
 function runalldays()
@@ -11,6 +12,7 @@ function runalldays()
     display(Day2.day2())
     display(Day3.day3())
     display(Day4.day4())
+    display(Day5.day5())
 end
 
 end
