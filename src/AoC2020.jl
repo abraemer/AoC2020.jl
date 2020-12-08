@@ -1,6 +1,6 @@
 module AoC2020
 
-include("util.jl")
+# include("util.jl")
 
 include("day01.jl")
 include("day02.jl")
