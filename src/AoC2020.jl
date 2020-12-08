@@ -1,6 +1,7 @@
 module AoC2020
 
 # include("util.jl")
+include("console.jl")
 
 include("day01.jl")
 include("day02.jl")
@@ -9,6 +10,7 @@ include("day04.jl")
 include("day05.jl")
 include("day06.jl")
 include("day07.jl")
+include("day08.jl")
 
 # run all
 function runalldays()
@@ -19,6 +21,7 @@ function runalldays()
     display(Day5.day5())
     display(Day6.day6())
     display(Day7.day7())
+    display(Day8.day8())
 end
 
 end
