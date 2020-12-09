@@ -1,5 +1,5 @@
 module Day1
-export day1
+export day1, doublePointerSearch
 
 function readInput(inputfile="inputs/input01.txt")
     open(inputfile) do f
