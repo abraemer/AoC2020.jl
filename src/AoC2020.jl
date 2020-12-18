@@ -3,7 +3,7 @@ module AoC2020
 # include("util.jl")
 include("console.jl")
 
-for day in 1:9
+for day in 1:10
     if day < 10
         include("day0$day.jl")
     else
@@ -21,6 +21,8 @@ function runalldays()
     display(Day6.day6())
     display(Day7.day7())
     display(Day8.day8())
+    display(Day9.day9())
+    display(Day10.day10())
 end
 
 end
