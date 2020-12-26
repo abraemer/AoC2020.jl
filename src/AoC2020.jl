@@ -11,6 +11,8 @@ for day in 1:10
     end
 end
 
+include("day12.jl")
+
 # run all
 function runalldays()
     display(Day1.day1())
@@ -23,6 +25,8 @@ function runalldays()
     display(Day8.day8())
     display(Day9.day9())
     display(Day10.day10())
+    # display(Day11.day11())
+    display(Day12.day12())
 end
 
 end
