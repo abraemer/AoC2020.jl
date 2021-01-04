@@ -13,6 +13,7 @@ end
 
 include("day12.jl")
 include("day13.jl")
+include("day14.jl")
 
 # run all
 function runalldays()
@@ -29,6 +30,7 @@ function runalldays()
     # display(Day11.day11())
     display(Day12.day12())
     display(Day13.day13())
+    display(Day13.day14())
 end
 
 end
